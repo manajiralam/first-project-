@@ -184,3 +184,41 @@ img{
     text-align: center;
     margin-top:30px;
 }
+.parent-galary{
+text-align: center;
+margin-top: 25px;
+}
+.galary{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 15px;
+    gap: 5px;
+    grid-auto-rows: 200px;
+    grid-template-areas: 
+    "two one four"
+    "three one five"
+    "three six five";
+}
+.galary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box-1{
+   grid-area: one; 
+}
+#box-2{
+grid-area: two;
+}
+#box-3{
+grid-area: three;
+}
+#box-4{
+grid-area: four;
+}
+#box-5{
+grid-area: five;
+}
+#box-6{
+grid-area: six;
+}
