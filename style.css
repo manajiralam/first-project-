@@ -1,0 +1,186 @@
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+* {  font-family: "Open Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header {
+    background-color: aquamarine;
+
+} */
+
+ul li a {
+    text-decoration: none;
+}
+h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+#r{
+    color: #fd6e0a;
+}
+.head{
+text-align: center;
+}
+.mitul{ background-color: #fd6e0a;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.max{
+    max-width: 1100px;
+    margin: auto;
+}
+#name{
+    font-size: 32px;
+}
+.left h2{
+font-weight: 900;
+font-size: 40px;
+}
+#p{
+    font-size: 1.2rem;
+}
+.con-button{ background-color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+    margin-left: 8px;
+
+}
+.hero-button{
+    margin-top: 10px;}
+.hero-back-color{
+    background-color: #f1d9c7;
+}
+img{
+    max-width: 100%;
+}
+.about-parent{
+    background-color: #f1d9c7;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 10px 0px;
+}
+.about-box{
+    display: flex;
+   justify-content: space-between;
+}
+.what{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: left;
+    margin-top: 15px;
+    color: #333333;
+    font-size: 15px;
+   
+}
+.id{
+     border:3px solid #fd6e0a;
+    border-radius: 5px;
+    padding: 3px;
+    background-color:#ffeded;
+   
+  height: 230px;
+}
+.A-s{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2px 0px;
+}
+.frist{
+   display: inline;
+   
+}
+.frist-con{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.habard{
+    font-weight: 700;
+    color: rgb(56, 62, 26);
+}
+/* ai a dice */
+.resume{
+    margin-top: 50px;
+}
+
+.resume-column{
+    display: flex;
+    gap: 60px;
+}
+
+.frist-con{
+    width: 50%;
+}
+
+.resume-item{
+    margin: 30px 0;
+}
+
+.resume-item h3{
+    font-size: 28px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.habard{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.resume-item p{
+    color: #757575;
+    line-height: 28px;
+}
+
+.frist-con hr{
+    border: none;
+    border-top: 1px solid #d1d1d1;
+}
+.button{
+    text-align: center;
+    margin-top:30px;
+}
