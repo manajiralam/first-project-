@@ -241,7 +241,7 @@ footer form input{
     margin: 10px;
     width: 50%;
 } */
- footer{
+ /* footer{
     display: flex;
     justify-content: space-between;
     gap: 80px;
@@ -300,4 +300,116 @@ footer{
 }
 .flex{
     display: flex; 
+} */
+ .footer-bg {
+    background-color: #fff8f3;
+    padding: 80px 0;
+    margin-top: 80px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+.footer-left h2, .footer-right h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    color: #757575;
+    margin-bottom: 25px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: translateY(-3px);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 16px;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #ffffff;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #fd6e0a;
+}
+
+.contact-form textarea {
+    height: 140px;
+    resize: none;
+}
+
+.footer-right .btn-primary {
+    align-self: flex-start;
+    min-width: 130px;
+}
+.hero-parent img{
+    display: block;
+}
+.btn-primary {
+    background-color: #fd6e0a;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-primary {
+    background-color: #fd6e0a;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #fd6e0a;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e25c05;
+    transform: translateY(-2px);
 }
