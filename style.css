@@ -294,3 +294,10 @@ footer form input{
 .hero-parent img{
     display: block;
 }
+footer{
+    background-color: #FFF8F3;
+    margin-top: 20px !important;
+}
+.flex{
+    display: flex; 
+}
