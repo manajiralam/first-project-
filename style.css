@@ -291,3 +291,6 @@ footer form input{
 .footer-right button{
     width: 150px;
 }
+.hero-parent img{
+    display: block;
+}
