@@ -222,3 +222,72 @@ grid-area: five;
 #box-6{
 grid-area: six;
 }
+/* footer start  */
+/* footer{
+   text-align: center;
+   margin-top: 50px !important;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+   background-color: #f1d9c7;
+   padding: 30px;
+}
+footer form input{
+    border: none;
+    background-color: rgb(237, 237, 237);
+    padding: 8px 15px;
+    border-radius: 3px;
+    display: block;
+    margin: 10px;
+    width: 50%;
+} */
+ footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 60px;
+    padding: 50px 0;
+}
+
+.footer-left,
+.footer-right{
+    width: 50%;
+}
+
+.footer-left p{
+    margin: 20px 0;
+    color: #555;
+    line-height: 28px;
+}
+
+.social-icon{
+    margin-top: 20px;
+}
+
+.social-icon img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.footer-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-right input,
+.footer-right textarea{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-right textarea{
+    height: 150px;
+    resize: none;
+}
+
+.footer-right button{
+    width: 150px;
+}
